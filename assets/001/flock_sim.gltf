@@ -1,0 +1,128 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Mball.001_Mesh",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.12372176349163055,
+                1.0508430004119873,
+                0.10216367244720459
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.27383100986480713,
+                    0.27383100986480713,
+                    0.27383100986480713,
+                    1
+                ],
+                "metallicFactor" : 0.6382979154586792,
+                "roughnessFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mball.001_Mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 176032,
+            "max" : [
+                1.0607078075408936,
+                1.0582265853881836,
+                0.9544750452041626
+            ],
+            "min" : [
+                -1.043708324432373,
+                -1.037225604057312,
+                -1.395211935043335
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 176032,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 176032,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 1055952,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2112384,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2112384,
+            "byteOffset" : 2112384
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1408256,
+            "byteOffset" : 4224768
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4223808,
+            "byteOffset" : 5633024
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 9856832,
+            "uri" : "flock_sim.bin"
+        }
+    ]
+}
