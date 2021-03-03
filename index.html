@@ -1,20 +1,16 @@
 <html>
     <head>
         <title>AR.js Basic Projected Camera Example</title>
-        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+       
         <script type="module" src="https://unpkg.com/@google/model-viewer@1.5.0/dist/model-viewer.min.js"></script>
 
     </head>
 
 <body style='margin: 0; overflow: hidden;'>
-    <a-scene
-        vr-mode-ui="enabled: false"
-		embedded
-        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+  
+       
         <model-viewer src="./assets/001/flock_sim.gltf">
-		<a-entity gltf-model="./assets/001/flock_sim.gltf" rotation="0 0 0" scale="0.01 0.01 0.01" gps-entity-place="longitude: 15.783295; latitude: 40.783596;" animation-mixer/>
-		<a-camera gps-camera rotation-reader></a-camera>
+		
 	</a-scene>
 </body>
 </html>
