@@ -1,4 +1,7 @@
 <html>
+	body, html {
+  height: 100%;
+}
     <head>
         <title>AR.js Basic Projected Camera Example</title>
        
@@ -9,7 +12,9 @@
 <body>
   
       
-        <model-viewer height="100%" min-height="100%" width="100%" src="./assets/001/flock_sim.gltf" ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto"  camera-controls></model-viewer>
+        <model-viewer src="./assets/001/flock_sim.gltf" ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto"  camera-controls>
+	
+	</model-viewer>
 		
 	
 </body>
