@@ -12,11 +12,7 @@ body, model-viewer {
   outline: none;
 }
 	    </style>
-<script>
-if($host = 'https://www.gabrielelorusso.com') {
-	document.getElementById('ARbutton').style.display = 'none';
-}
-</script>
+
     </head>
 
 <body>
@@ -32,7 +28,7 @@ if($host = 'https://www.gabrielelorusso.com') {
         auto-rotate rotation-per-second="10deg">	      
 	
 
-           <button id="ARbutton" slot="ar-button" style="background-color: white; border: none; position: absolute; 
+           <button slot="ar-button" style="background-color: white; border: none; position: absolute; 
     
     font-size: 28px;
     bottom: 20px;
@@ -48,5 +44,9 @@ if($host = 'https://www.gabrielelorusso.com') {
 		
 	
 </body>
-	
+	<script>
+if($host = 'https://www.gabrielelorusso.com') {
+	document.getElementByTagName('button').style.display = 'none';
+}
+</script>
 </html>
