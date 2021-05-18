@@ -15,8 +15,13 @@ body, model-viewer {
 
     </head>
 
+
 <body>
-  
+  <script type="text/javascript">
+  if ( window.location !== window.parent.location ) {
+ document.getElementById("ar").style.display = "none";
+}
+  </script> 
       
         <model-viewer 
         interaction-policy="allow-when-focused"
@@ -28,7 +33,7 @@ body, model-viewer {
         auto-rotate rotation-per-second="10deg">	      
 	
 
-           <button  slot="ar-button" style="background-color: white; border: none; position: fixed; 
+           <button  id="ar" slot="ar-button" style="background-color: white; border: none; position: fixed; 
     
     font-size: 28px;
     bottom: 20px;
