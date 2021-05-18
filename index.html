@@ -27,6 +27,11 @@ body, model-viewer {
         ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto"  camera-controls
         auto-rotate rotation-per-second="10deg">	      
 	
+<script>
+if($host = 'https://www.gabrielelorusso.com') {
+	document.getElementsByTagName('button').style.display = 'none';
+}
+</script>
            <button slot="ar-button" style="background-color: white; border: none; position: absolute; 
     
     font-size: 28px;
@@ -37,11 +42,7 @@ body, model-viewer {
            AR
            </button>
 		
-<script>
-if($host = 'https://www.gabrielelorusso.com') {
-	document.getElementById('button').style = 'display: none';
-}
-</script>
+
 	
 	</model-viewer>
 		
