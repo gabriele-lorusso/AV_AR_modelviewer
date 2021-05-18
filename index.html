@@ -27,12 +27,8 @@ body, model-viewer {
         ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto"  camera-controls
         auto-rotate rotation-per-second="10deg">	      
 	
-<script>
-if($host = 'https://www.gabrielelorusso.com') {
-	document.getElementsByTagName('button').style.display = 'none';
-}
-</script>
-           <button slot="ar-button" style="background-color: white; border: none; position: absolute; 
+
+           <button id="ARbutton" slot="ar-button" style="background-color: white; border: none; position: absolute; 
     
     font-size: 28px;
     bottom: 20px;
@@ -48,4 +44,9 @@ if($host = 'https://www.gabrielelorusso.com') {
 		
 	
 </body>
+	<script>
+if($host = 'https://www.gabrielelorusso.com') {
+	document.getElementsById('ARbutton').style.display = 'none';
+}
+</script>
 </html>
