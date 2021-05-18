@@ -12,7 +12,11 @@ body, model-viewer {
   outline: none;
 }
 	    </style>
-
+<script>
+if($host = 'https://www.gabrielelorusso.com') {
+	document.getElementById('ARbutton').style.display = 'none';
+}
+</script>
     </head>
 
 <body>
@@ -44,9 +48,5 @@ body, model-viewer {
 		
 	
 </body>
-	<script>
-if($host = 'https://www.gabrielelorusso.com') {
-	document.getElementById('ARbutton').style.display = 'none';
-}
-</script>
+	
 </html>
