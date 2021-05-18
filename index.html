@@ -28,7 +28,7 @@ body, model-viewer {
         auto-rotate rotation-per-second="10deg">	      
 	
 
-           <button slot="ar-button" style="background-color: white; border: none; position: absolute; 
+           <button id="ARbutton" slot="ar-button" style="background-color: white; border: none; position: absolute; 
     
     font-size: 28px;
     bottom: 20px;
@@ -46,7 +46,7 @@ body, model-viewer {
 </body>
 	<script>
 if($host = 'https://www.gabrielelorusso.com') {
-	document.getElementByTagName('button').style.display = 'none';
+	document.getElementById('ARbutton').style.display = 'none';
 }
 </script>
 </html>
